@@ -1,7 +1,0 @@
-# Projeto
-
-
-
-
-# Distribuindo Tarefas:
-

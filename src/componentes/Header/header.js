@@ -1,35 +1,30 @@
-import { CaixaHeader} from "./Styleheader"
+import { CaixaHeader, CaixaImagem,LogoHeader, } from "./Styleheader"
 
+   export const Header =({setMenuIsVisible}) =>{
 
-
-const HeaderContainer =() =>{
-
+  
     return(
         <CaixaHeader>
-            <div className="caixa-imagem">
-                <img src="/imagem/logo.jpg" alt='logo nr' className="logo-header"/>
-            </div>
-            <div className='caixa-menu'>
-                <img src="/imagem/menu.svg" alt="icon menu" className="icon-menu"/>
-            </div>
-            <div className="caixa-links">
-                <ul className="caixa-lista"> 
-                    <li className="lista">
+                <CaixaImagem>
+                    <LogoHeader  onClick={()=> alert("ola")} src="/imagem/logo.jpg" alt='logo nr' className="logo-header"/>
+                </CaixaImagem>
+                <div className="caixa-links">
+                    <nav> 
                         <a href="#" className="lista-item">Home</a>
-                    </li>
-                    <li  className="lista">
                         <a href="#" className="lista-item">Serviços</a>
-                    </li>
-                    <li  className="lista">
-                        <a href="#" className="lista-item">Contate-me</a>
-                    </li>
-                </ul>
-            </div>
-        </CaixaHeader>      
-            
+                        <a href="#" className="lista-item">ERRADO</a>
+                    </nav>
+                </div>
+
+                <div>
+                    <img onClick={() => setMenuIsVisible(true)} src="/imagem/abrir.svg" />
+                  
+                </div>
+           
+        </CaixaHeader>          
     )
 
 
-}
+  }
 
-export default HeaderContainer
+export default Header

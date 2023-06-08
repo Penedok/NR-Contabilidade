@@ -1,5 +1,6 @@
 import Header from "../Header/header";
 import MenuMobile from "../MenuMobile/menu";
+import BannereApresentacao from "../BannereApresentacao/bannerApresen";
 import { useState } from "react";
 
 
@@ -12,9 +13,9 @@ import { useState } from "react";
                 menuIsVisible={menuIsVisible}
                 setMenuIsVisible={setMenuIsVisible}
             />
-            <Header
-             setMenuIsVisible={setMenuIsVisible}
-             />
+            <Header setMenuIsVisible={setMenuIsVisible}/>
+            <BannereApresentacao/>
+
         </>
     )
 }

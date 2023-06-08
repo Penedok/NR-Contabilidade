@@ -11,7 +11,7 @@ export const MenuMobile = ({ menuIsVisible, setMenuIsVisible}) =>{
     return(
         <Container Ativo={menuIsVisible}>
           
-                <Icon onClick={() => setMenuIsVisible(false)} src="/imagem/menu.svg" alt="icon menu"/>
+                <Icon onClick={() => setMenuIsVisible(false)} src="/imagem/xmenu1.svg" alt="icon menu"/>
        
             <Navegacao> 
                 <ItemNav>Home</ItemNav>

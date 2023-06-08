@@ -4,11 +4,10 @@ export const Container = styled.section`
     position: absolute;
     backdrop-filter: blur(3px);
     width: 100%;
-    height:100%;
     top:0;
     left:0;
     right:0;
-    bottom:0;
+    bottom:50em;
     z-index:5;
     display: none;
     align-items:center;
@@ -21,21 +20,18 @@ export const Container = styled.section`
   
     ${({ Ativo }) => Ativo && css `
     display: flex ;
+    justify-content:end;
     pointer-events: auto;
-
-
-
+    align-items:center;
  `
 }
- 
-
 `
 export const Icon = styled.img `
     margin: 1em 0.5em;
     position: absolute;
-    top: 1rem;
-    right:1rem;
-
+    top: 4.5rem;
+    right:3rem;
+    width:6%;
 `
 export const Navegacao= styled.nav `
     display: flex;
@@ -47,9 +43,6 @@ export const Navegacao= styled.nav `
 `
 export const ItemNav = styled.a `
     color: #00000;
-
-    
-   
 
 `
 

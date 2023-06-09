@@ -8,6 +8,8 @@ import {ContainerSobremim, CaixaImgSobre,ImgSobre,ImgLinhaSobre,CaixaTextoSobre,
 
 
 export const SobreMim = () =>{
+
+
     return(
 
         <ContainerSobremim>
@@ -34,7 +36,7 @@ export const SobreMim = () =>{
                 
             <div>
                 <Paragrafo>Quer mais iformações?</Paragrafo>
-                < Botao className="btn">Vamos conversar</Botao> 
+                < Botao href='https://api.whatsapp.com/send?phone=5592981491600'>Vamos conversar</Botao> 
             </div>
         
            

@@ -47,5 +47,6 @@ export const Navegacao= styled.nav `
 export const ItemNav = styled.a `
    color:#014421;
    font-weight:800;
+   text-decoration:none;
 
 `

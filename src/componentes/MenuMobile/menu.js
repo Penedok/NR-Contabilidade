@@ -14,9 +14,9 @@ export const MenuMobile = ({ menuIsVisible, setMenuIsVisible}) =>{
                 <Icon onClick={() => setMenuIsVisible(false)} src="/imagem/xmenu1.svg" alt="icon menu"/>
        
             <Navegacao> 
-                <ItemNav>Home</ItemNav>
+                <ItemNav >Home</ItemNav>
                 <ItemNav>Serviços</ItemNav>
-                <ItemNav>Contate-me</ItemNav>
+                <ItemNav href='https://api.whatsapp.com/send?phone=5592981491600'>Contate-me</ItemNav>
                 </Navegacao>
         </Container>
       

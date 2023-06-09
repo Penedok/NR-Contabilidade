@@ -1,10 +1,10 @@
-import {Botoes} from './styleBtn'
+import {Botoes,Div} from './styleBtn'
 
 export const Botao = (props) =>{
     return(
-        <div>
-            <Botoes onClick={props.onClick}>{props.children}</Botoes>
-        </div>
+        <Div>
+            <Botoes href={props.href}>{props.children}</Botoes>
+        </Div>
 
 
 

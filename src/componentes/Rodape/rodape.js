@@ -14,10 +14,10 @@ export const Rodape = ()=>{
                 </NavegacaoRodape>
             </div>
             <CaixaIcon>
-                <IconWPP href='https://www.instagram.com/nr_contabilidade/'>
+                <IconWPP href='https://api.whatsapp.com/send?phone=5592981491600'>
                     <img src='/imagem/iconeIns.svg'  alt='icon-instagram'></img>
                 </IconWPP>
-                <IconINS  href='https://api.whatsapp.com/send?phone=5592981491600'>
+                <IconINS href='https://www.instagram.com/nr_contabilidade/'>
                    <img src='/imagem/iconeWpp.svg' alt='icon-wpp'></img>
                 </IconINS>
             </CaixaIcon>

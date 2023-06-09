@@ -9,22 +9,21 @@ import {ContainerSobremim, CaixaImgSobre,ImgSobre,ImgLinhaSobre,CaixaTextoSobre,
 
 export const SobreMim = () =>{
 
-
     return(
 
         <ContainerSobremim>
-            <CaixaImgSobre>
+            <CaixaImgSobre >
                 <ImgSobre src="/imagem/perfilNilo1.png" alt="Imagem Perfil Nilo"/>
                 <ImgLinhaSobre src="/imagem/Line2.svg"/>
             </CaixaImgSobre>
             <CaixaTextoSobre>
-                <TextoSobre>Sobre-Mim</TextoSobre>
-                <ParagrafoSobre>É um fato conhecido de todos que um leitor se distrairá
-                  com o conteúdo de texto legível de uma página quando estiver
-                  examinando sua diagramação. A vantagem de usar Lorem Ipsum é 
-                  que ele tem uma distribuição normal de letras, ao contrário de
-                 "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência
-                  similar a de um texto legível</ParagrafoSobre>
+                <TextoSobre id="sobremim">Sobre-Mim</TextoSobre>
+                <ParagrafoSobre>Manaura com gosto, tenho 27 anos, casado e pai do Cauã!
+                    Atuo na área desde 2017, onde comecei a minha história em uma empresa regional,
+                   conquistamos muito durante 5 anos.
+                     E Hoje atuo em uma empresa Mundial. Possuo grandes experiências na área fiscal,
+                     jurídica e posso te ajudar a realizar seu sonho de abrir a sua primeira empresa.
+                </ParagrafoSobre>
             </CaixaTextoSobre>
           
             <div>

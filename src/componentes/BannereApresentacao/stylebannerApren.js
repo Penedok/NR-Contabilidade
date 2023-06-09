@@ -32,7 +32,7 @@ export const CaixaBotao = styled.div`
 padding:2em;
 
 `
-export const Apresentabtn = styled.button`
+export const Apresentabtn = styled.a`
 background:#203a4b;
 padding:0.5em 3em;
 text-transform: uppercase;
@@ -43,6 +43,7 @@ margin:0 1em;
 padding: 0.6em 2em;
 border-radius:5px; 
 font-size:15px;
+text-decoration:none;
 
 
 `

@@ -15,7 +15,7 @@ export const BannereApresentacao = () =>{
                  </TextoApresentacao>
             </CaixaApresentacao>
             <CaixaBotao>
-                <Apresentabtn>Sobre-Mim</Apresentabtn>
+                <Apresentabtn href="#sobremim">Sobre-Mim</Apresentabtn>
             </CaixaBotao>
         </section>
 

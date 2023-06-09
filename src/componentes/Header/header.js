@@ -10,9 +10,9 @@ import { CaixaHeader, CaixaImagem,LogoHeader,NavegacaoHeader,ItemHeader,IconMenu
                 </CaixaImagem>
                 <div className="caixa-links">
                     <NavegacaoHeader> 
-                        <ItemHeader href="#" className="lista-item">Home</ItemHeader>
-                        <ItemHeader href="#" className="lista-item">Serviços</ItemHeader>
-                        <ItemHeader href="#" className="lista-item">ERRADO</ItemHeader>
+                        <ItemHeader href="#" >Home</ItemHeader>
+                        <ItemHeader href="#" >Serviços</ItemHeader>
+                        <ItemHeader href="#" >ERRADO</ItemHeader>
                     </NavegacaoHeader>
                 </div>
 

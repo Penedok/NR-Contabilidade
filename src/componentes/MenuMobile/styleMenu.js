@@ -1,3 +1,4 @@
+
 import styled, {css} from 'styled-components'
 
 export const Container = styled.section`
@@ -40,9 +41,11 @@ export const Navegacao= styled.nav `
     flex-direction: column;
     gap: 2rem;
     font-size: 18px;
+
 `
+
 export const ItemNav = styled.a `
-    color: #00000;
+   color:#014421;
+   font-weight:800;
 
 `
-

@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
-import respon from '../componentes/respon/tela'
+import respon from '../componentes/respon/tela';
+
 
 export const Global = createGlobalStyle`
   * {
@@ -9,6 +10,7 @@ export const Global = createGlobalStyle`
   }
   :root {
       font-size: ${respon(24)};
+
 
       @media (min-width: 768px) {
         font-size: ${respon(18)};

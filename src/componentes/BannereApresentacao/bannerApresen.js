@@ -10,8 +10,8 @@ export const BannereApresentacao = () =>{
                 <ImgBanner src="/imagem/banner.svg"/>
             </CaixaBanner>
             <CaixaApresentacao>
-                <TextoApresentacao>Oi, Eu me chamo Nilo Rodrigo e eu vou amar te ajudar
-                    a consturir a sua realidade econômica e pratrimonial
+                <TextoApresentacao>Oi, eu sou o Nilo e posso te ajudar 
+                   em suas operações financeiras.
                  </TextoApresentacao>
             </CaixaApresentacao>
             <CaixaBotao>

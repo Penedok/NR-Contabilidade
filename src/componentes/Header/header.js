@@ -1,4 +1,4 @@
-import { CaixaHeader, CaixaImagem,LogoHeader,NavegacaoHeader,ItemHeader,IconMenu } from "./Styleheader"
+import { CaixaHeader, CaixaImagem,LogoHeader,NavegacaoHeader,ItemHeader,IconMenu,CaixaLinks } from "./Styleheader"
 
    export const Header =({setMenuIsVisible}) =>{
 
@@ -8,13 +8,13 @@ import { CaixaHeader, CaixaImagem,LogoHeader,NavegacaoHeader,ItemHeader,IconMenu
                 <CaixaImagem>
                     <LogoHeader  onClick={()=> alert("ola")} src="/imagem/logo.jpg" alt='logo nr' className="logo-header"/>
                 </CaixaImagem>
-                <div className="caixa-links">
+                <CaixaLinks>
                     <NavegacaoHeader> 
                         <ItemHeader href="#" >Home</ItemHeader>
                         <ItemHeader href="#" >Serviços</ItemHeader>
-                        <ItemHeader href="#" >ERRADO</ItemHeader>
+                        <ItemHeader href='https://api.whatsapp.com/send?phone=5592981491600'>Contate</ItemHeader>
                     </NavegacaoHeader>
-                </div>
+                </CaixaLinks>
 
                 <div>
                     <IconMenu onClick={() => setMenuIsVisible(true)} src="/imagem/menu.svg" />

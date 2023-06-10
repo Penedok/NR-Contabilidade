@@ -6,6 +6,20 @@ export const CaixaRodape = styled.div`
  justify-content:center;
  align-items:center;
  background: #5fb13d;
+
+ @media (min-width: 768px) {
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+@media (min-width: 1768px) {
+  
+}
+
+
+
+
+
 `
 
 export const NavegacaoRodape = styled.nav`
@@ -16,6 +30,17 @@ export const NavegacaoRodape = styled.nav`
  padding:3em 0;
  margin:1em 0;
 
+ @media (min-width: 768px) {
+  flex-direction:row;
+
+
+}
+
+@media (min-width: 1768px) {
+  padding: 0.5em 0;
+}
+
+
 
 `
 
@@ -25,16 +50,34 @@ font-size:20px;
 text-decoration:none;
 padding: 0.5em 0;
 font-weight:800;
+
+@media (min-width: 768px) {
+  padding: 0.5em;
+}
 `
 export const CaixaIcon = styled.div`
   display:flex;
   justify-content:center;
   align-items:center;
   padding: 0 2em 5em 0 ;
+
+  @media (min-width: 768px) {
+    padding: 0 0 0 0;
+ }
+ 
  
 `
 export const Logorodape = styled.img`
  width:35%;
+
+ @media (min-width: 768px) {
+   width: 10%;
+}
+
+@media (min-width: 1768px) {
+  width: 5%;
+
+}
 
 `
 export const IconINS = styled.a`

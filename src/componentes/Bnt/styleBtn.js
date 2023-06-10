@@ -14,7 +14,21 @@ export const Botoes = styled.a`
  font-size:18px;
  padding: 0.6em 1em;
  box-shadow: 7px 7px 0 #383741;
- margin:0 5rem;
+ margin:4rem;
  color:#000;
+
+ @media (min-width: 768px) {
+    margin:5rem;
+    padding: 0.6em 0.5em;
+}
+
+@media (min-width: 1440px) {
+    margin:5rem;
+    padding: 1em 3em;
+}
+
+
+
+
 
 `

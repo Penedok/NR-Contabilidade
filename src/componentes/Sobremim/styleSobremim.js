@@ -134,7 +134,7 @@ display:flex;
 flex-wrap:wrap;
 align-items:center;
 width:100%;
-
+margin:10em 0;
 
 
 @media (min-width: 768px) {

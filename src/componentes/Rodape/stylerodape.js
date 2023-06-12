@@ -17,9 +17,6 @@ export const CaixaRodape = styled.div`
 }
 
 
-
-
-
 `
 
 export const NavegacaoRodape = styled.nav`
@@ -68,7 +65,7 @@ export const CaixaIcon = styled.div`
  
 `
 export const Logorodape = styled.img`
- width:35%;
+ width:20%;
 
  @media (min-width: 768px) {
    width: 10%;

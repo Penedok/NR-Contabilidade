@@ -33,7 +33,7 @@ export const SobreMim = () =>{
             </CaixaLinha2>    
                 
             <CaixaInfor>
-                <Paragrafo>Quer mais iformações?</Paragrafo>
+                <Paragrafo>Quer mais informações?</Paragrafo>
                 < Botao href='https://api.whatsapp.com/send?phone=5592981491600'>Vamos conversar</Botao> 
             </CaixaInfor>
         

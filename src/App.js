@@ -1,6 +1,5 @@
-
-import { Home } from "./componentes/Home/home";
-import Global from "./styles/global";
+import React from 'react';
+import Routes from './routes'
 
 function App() {
   
@@ -8,8 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <Global/>
-      <Home/>
+          <Routes />
 
     </div>
   );

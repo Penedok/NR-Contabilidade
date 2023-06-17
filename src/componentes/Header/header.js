@@ -11,7 +11,9 @@ import { Link } from "react-router-dom"
                 </CaixaImagem>
                 <CaixaLinks>
                     <NavegacaoHeader> 
-                        <ItemHeader href="#" >Home</ItemHeader>
+                        <ItemHeader>
+                             <Link to="/" style={{color: '#D0F0C0', textDecoration: 'none'}}>Home</Link>
+                        </ItemHeader>
                         <ItemHeader>
                             <Link to="/Servicos-NR" style={{color: '#D0F0C0', textDecoration: 'none'}}>Servicos</Link>
                         </ItemHeader>

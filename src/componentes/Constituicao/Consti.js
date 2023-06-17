@@ -19,9 +19,7 @@ export const ConstituicaoAudi = () =>{
             </Constituicao>     
            <Constituicao>
               <ParagrafoImp>Declare o seu Imposto de Renda </ParagrafoImp>
-                <Botao>
-                   <Link to="/Servicos-NR" style={{color: '#000', textDecoration: 'none'}}>Aqui</Link>
-                </Botao>
+              < Botao href='https://api.whatsapp.com/send?phone=5592981491600'>Aqui</Botao> 
            </Constituicao>
 
         </ContainerConsti>

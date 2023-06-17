@@ -1,4 +1,5 @@
 import { CaixaHeader, CaixaImagem,LogoHeader,NavegacaoHeader,ItemHeader,IconMenu,CaixaLinks } from "./Styleheader"
+import { Link } from "react-router-dom"
 
    export const Header =({setMenuIsVisible}) =>{
 
@@ -6,12 +7,14 @@ import { CaixaHeader, CaixaImagem,LogoHeader,NavegacaoHeader,ItemHeader,IconMenu
     return(
         <CaixaHeader>
                 <CaixaImagem>
-                    <LogoHeader  onClick={()=> alert("ola")} src="/imagem/logo.jpg" alt='logo nr' className="logo-header"/>
+                    <LogoHeader src="/imagem/logo.jpg" alt='logo nr' className="logo-header"/>
                 </CaixaImagem>
                 <CaixaLinks>
                     <NavegacaoHeader> 
                         <ItemHeader href="#" >Home</ItemHeader>
-                        <ItemHeader href="#" >Serviços</ItemHeader>
+                        <ItemHeader>
+                            <Link to="/Servicos-NR" style={{color: '#D0F0C0', textDecoration: 'none'}}>Servicos</Link>
+                        </ItemHeader>
                         <ItemHeader href='https://api.whatsapp.com/send?phone=5592981491600'>Contate</ItemHeader>
                     </NavegacaoHeader>
                 </CaixaLinks>

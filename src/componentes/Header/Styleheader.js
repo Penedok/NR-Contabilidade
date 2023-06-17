@@ -19,10 +19,7 @@ export const CaixaHeader = styled.div`
     justify-content: space-between;
   }
 
-`
-
-
-
+` 
 export const CaixaImagem = styled.div`
   width:25%
 
@@ -44,16 +41,27 @@ export const CaixaLinks = styled.div`
   display:flex;
   margin-left:auto;
 
+
+
 `
 
 export const NavegacaoHeader= styled.nav`
 display:none;
+
 @media (min-width: 768px) {
   display:flex;
+  font-size:18px;
+
 
 }
 `
 export const ItemHeader= styled.a`
+&:hover {
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );;
+
+}
+
+
 @media (min-width: 768px) {
  padding:0 1em;
  font-size:18px;
@@ -62,15 +70,10 @@ export const ItemHeader= styled.a`
  font-weight:800px;
 
 }
- 
-
 `
-export const IconMenu =styled.img `
-margin: 1em 0.5em;
-position: absolute;
-top: 4.5rem;
-right:3rem;
 
+export const IconMenu =styled.img `
+padding: 0 1em;
 
 @media (min-width: 768px) {
   display: none;

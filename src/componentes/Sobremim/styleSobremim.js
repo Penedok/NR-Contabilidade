@@ -54,6 +54,7 @@ text-align:center;
 export const ImgLinhaSobre = styled.img`
 width: 50rem;
 margin:2em 0;
+max-width: 305px;
 
 @media (min-width: 768px) {
    display:none;
@@ -72,7 +73,7 @@ text-align:center;
 font-size:32px;
 color:#D0F0C0;
 font-weight: 800;
-padding:0 3.7em 0 0;
+
 
 @media (min-width: 1440px) {
     font-size:48px;
@@ -83,8 +84,8 @@ padding:0 3.7em 0 0;
 `
 export const ParagrafoSobre = styled.p`
 font-size:18px;
-padding: 4.5rem;
 color:#D0F0C0;
+text-align:center;
 
 @media (min-width: 1440px) {
     font-size:35px;  ;
@@ -94,11 +95,12 @@ color:#D0F0C0;
 `
 
 export const Paragrafo =styled.p`
-    padding: 1em 0  1.5em;
+   
     font-size:29px;
     font-weight: 800;
     color:#D0F0C0;
     text-align:center;
+    margin:auto;
 
     @media (min-width: 768px) {
         padding: 0.5em;
@@ -107,7 +109,10 @@ export const Paragrafo =styled.p`
 
 `
 export const CaixaLinha2 = styled.div`
-
+display:flex;
+justify-content:center;
+align-items:center;
+margin:2em 0;
 
 @media (min-width: 768px) {
     display:none;
@@ -116,7 +121,7 @@ export const CaixaLinha2 = styled.div`
 
 `
 export const ImagemLinha2 = styled.img`
-margin:9em 0 0 3em;
+max-width: 305px;
 width:50rem;
 
 
@@ -128,14 +133,12 @@ width:50rem;
 
 `
 export const CaixaInfor = styled.div`
-
-width:50rem;
 display:flex;
 flex-wrap:wrap;
+justify-content:center; 
 align-items:center;
-width:100%;
-margin:10em 0;
-
+margin-bottom:3em;
+ 
 
 @media (min-width: 768px) {
    display:flex;

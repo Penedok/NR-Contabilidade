@@ -1,5 +1,5 @@
 import React from 'react';
-import Routes from './routes'
+import Rotas from './routes'
 
 function App() {
   
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-          <Routes />
+          <Rotas />
 
     </div>
   );

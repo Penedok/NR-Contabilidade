@@ -3,50 +3,59 @@ import styled, {css} from 'styled-components'
 
 export const Container = styled.section`
     position: absolute;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );;
     backdrop-filter: blur(3px);
     width: 100%;
-    top:0;
+    top:0px;
     left:0;
     right:0;
-    bottom:50em;
+    bottom:15rem;
     z-index:5;
     display: none;
     align-items:center;
-    justify-content:center;
-    background: rgba (17,18,17, 0.95);
-    background: linear-gradient(34deg, rgba(25,88,24,0.95) 0%, rgba(17,18,17,0.95) 95%)
-
-    opacity: 0;
+    justify-content:space-around;
+    opacity: 0.9;
+   
    
   
     ${({ Ativo }) => Ativo && css `
     display: flex ;
-    justify-content:end;
+    justify-content:space-around;
     pointer-events: auto;
     align-items:center;
  `
 }
 `
 export const Icon = styled.img `
-    margin: 1em 0.5em;
+
     position: absolute;
-    top: 4.5rem;
-    right:3rem;
+    top: 2.1rem;
+    right:1rem;
     width:6%;
 `
+
 export const Navegacao= styled.nav `
     display: flex;
     align-items:center;
-    justify-content:center;
     flex-direction: column;
-    gap: 2rem;
+    gap: 0.5rem;
     font-size: 18px;
 
 `
 
 export const ItemNav = styled.a `
-   color:#014421;
-   font-weight:800;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   color:#fff;
+   font-weight:600;
    text-decoration:none;
+   cursor:pointer;
+   font-size:20px;
+
+`
+export const ImagemLinhaMenu =styled.img`
+    margin:0.5em 0;
+    
 
 `

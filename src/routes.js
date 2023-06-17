@@ -1,17 +1,17 @@
 import React from "react";
-import {BrowserRouter, Switch, Route,} from 'react-router-dom'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 
 import Main from './pages/Main/home';
 import Servicos from "./pages/Servicos/servico";
 
-export const Routes = () =>{
+export const Rotas = () =>{
     return(
         <BrowserRouter>
-            <Switch>
-                <Route path="/" exact component={Main} />
-                <Route path="/Servicos-NR" component={Servicos} />
-            </Switch>
+            <Routes>
+                <Route path="/" exact element={<Main/>} />
+                <Route path="/Servicos-NR" element={<Servicos/>} />
+            </Routes>
     
         </BrowserRouter>
     )
@@ -19,4 +19,4 @@ export const Routes = () =>{
 
 }
 
-export default Routes
+export default Rotas

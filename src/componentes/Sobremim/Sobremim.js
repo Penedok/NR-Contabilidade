@@ -3,6 +3,7 @@ import Botao from "../Bnt/btn"
 import {ContainerSobremim, CaixaImgSobre,ImgSobre,ImgLinhaSobre,
  TextoSobre,ParagrafoSobre,Paragrafo, ImagemLinha2, CaixaLinha2,CaixaInfor
 } from './styleSobremim'
+import { Link } from "react-router-dom"
 
 
 export const SobreMim = () =>{
@@ -24,7 +25,9 @@ export const SobreMim = () =>{
                         E Hoje atuo em uma empresa Mundial. Possuo grandes experiências na área fiscal,
                         jurídica e posso te ajudar a realizar seu sonho de abrir a sua primeira empresa.
                     </ParagrafoSobre>
-                    <Botao>Meus Serviços</Botao>   
+                    <Botao>
+                        <Link to="/Servicos-NR" style={{color: '#000', textDecoration: 'none'}}>Meus Serviços</Link>
+                    </Botao>   
                 </div>    
             </CaixaImgSobre>
             

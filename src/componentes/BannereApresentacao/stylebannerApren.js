@@ -25,7 +25,7 @@ align-items:center;
 `
 export const ImgBanner = styled.img`
  width:100%;
- padding:2em;
+ max-width: 900px;
  margin: 5em 0 0 0;
 
 
@@ -52,7 +52,7 @@ export const CaixaApresentacao = styled.div`
  justify-content:center;
  align-items:center;
  padding: 1.5em ;
- margin: 5.5em 0 0 0;
+ margin: 1.5em 0 0 0;
 
 
  @media (min-width: 768px) {
@@ -104,8 +104,7 @@ text-align:center;
 export const CaixaBotao = styled.div`
  display:flex;
  justify-content:center;
- padding:2em  ;
- margin:1em 0;
+ 
 
 @media (min-width: 768px) {
     display:flex;

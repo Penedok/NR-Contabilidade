@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 
 export const Div = styled.div`
-
+    display:flex;
+    justify-content:center;
+    padding:1em;
 
 `
 
@@ -14,7 +16,7 @@ export const Botoes = styled.a`
  font-size:18px;
  padding: 0.6em 1em;
  box-shadow: 7px 7px 0 #383741;
- margin:4rem;
+
  color:#000;
 
  @media (min-width: 768px) {

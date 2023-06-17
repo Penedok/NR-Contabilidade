@@ -5,11 +5,23 @@ export const Containerconsul = styled.div`
  flex-direction: column;
  justify-content:center;
 
-
+ @media screen and (min-width: 1024px) {
+  flex-direction:row;
+  flex-wrap:wrap;
+  padding: 0 3em;
+  
+  
+}
 
 `
 export const ServicoBanner = styled.div`
-
+  @media screen and (min-width: 1024px) {
+    font-size: 25px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
 
 `
 export const TituloCon = styled.h2`
@@ -18,12 +30,18 @@ export const TituloCon = styled.h2`
     text-align:center;
     text-transform:uppercase;
 
+    @media screen and (min-width: 1024px) {
+      font-size: 25px;
+    }
 
 `
 export const ConsuImg = styled.img`
     width:100vw;
 
-
+    @media screen and (min-width: 1024px) {
+      max-width: 500px;
+      max-height:500px;
+    }
 
 `
 export const Servicos = styled.div`
@@ -35,13 +53,16 @@ export const Servicos = styled.div`
    margin:  1em; 
    padding: 2em 0;
    
-
+   @media screen and (min-width: 1024px) {
+    
+  }
 
 
 `
 export const TituloServicos = styled.h2`
   color: #fff;
   text-align:center;
+  text-transform:uppercase;
  
 
 

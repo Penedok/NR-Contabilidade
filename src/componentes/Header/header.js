@@ -15,7 +15,7 @@ import { Link } from "react-router-dom"
                              <Link to="/" style={{color: '#D0F0C0', textDecoration: 'none'}}>Home</Link>
                         </ItemHeader>
                         <ItemHeader>
-                            <Link to="/Servicos-NR" style={{color: '#D0F0C0', textDecoration: 'none'}}>Servicos</Link>
+                            <Link to="/Servicos-NR" style={{color: '#D0F0C0', textDecoration: 'none'}}>Serviços</Link>
                         </ItemHeader>
                         <ItemHeader href='https://api.whatsapp.com/send?phone=5592981491600'>Contate-me</ItemHeader>
                     </NavegacaoHeader>

@@ -3,24 +3,20 @@ import styled from 'styled-components'
 export const ContainerBanner = styled.section`
   display:flex;
   flex-direction:column;
-  justify-content:center
+  justify-content:center;
   align-items:center;
 
-  @media (min-width: 1440px) {
-   
 
-    
-    
 
   }
  
 `
 
 export const CaixaBanner = styled.div`
-display:flex;
-flex-direction:column;
-justify-content:center
-align-items:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center
+  align-items:center;
     
 `
 export const ImgBanner = styled.img`
@@ -29,16 +25,11 @@ export const ImgBanner = styled.img`
  margin: 5em 0 0 0;
 
 
- @media (min-width: 768px) {
+ @media screen and (min-width: 1024px) {
     width:100%;
-    margin: 0;
+  
   }
-  @media (min-width: 1768px) {
-    width:65%;
-    margin: 0 0 0 15em  
- 
 
-  }
 
 `
 export const CaixaApresentacao = styled.div`
@@ -55,13 +46,13 @@ export const CaixaApresentacao = styled.div`
  margin: 1.5em 0 0 0;
 
 
- @media (min-width: 768px) {
+ @media screen and (min-width: 1024px) {
      display:flex;
      flex-direction:column;
-     position: absolute;
+     position: relative;
      width: 100%;
-     top:32em;
-     left:0;
+     top: -12em;
+     left:-12em;
      right:0;
      bottom:10em;
      z-index:5;
@@ -72,9 +63,11 @@ export const CaixaApresentacao = styled.div`
    }
    
 
- @media (min-width: 1440px) {
+ @media  screen and (min-width: 1728px) {
+  top: -13em;
+  left:-21em;
 
-  top:31em;
+
 
 
 }
@@ -84,20 +77,19 @@ font-weight:800;
 font-size:29px;
 text-align:center;
   
-@media (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     background:#fff;
-    padding: 0.5em 0 2em 0.5em;
+    padding: 0.5em 0 1.5em 0.5em;
     font-size:33px;
+    text-align:center;
     
   }
 
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
    
     font-size:35px;
     
   }
-
-
 
 
 `
@@ -106,23 +98,26 @@ export const CaixaBotao = styled.div`
  justify-content:center;
  
 
-@media (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     display:flex;
+    align-items:center;
+    justify-content:center;
     flex-direction:column;
-    position: absolute;
+    position: relative;
     width: 100%;
-    top: 44em;
-    left:0;
+    top: -16.5em;
+    left:-13em;
     right:0;
-    bottom:50em;
+    bottom:0;
     z-index:5;
     width:29%;
     
 
   }
-  @media (min-width: 1768px) {
+  @media screen and (min-width: 1728px) {
     text-align:center;
-    top:32em;
+    top:-17.5em;
+    left:-23em;
   
   
   }

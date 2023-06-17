@@ -15,7 +15,7 @@ import { Link } from "react-router-dom"
                         <ItemHeader>
                             <Link to="/Servicos-NR" style={{color: '#D0F0C0', textDecoration: 'none'}}>Servicos</Link>
                         </ItemHeader>
-                        <ItemHeader href='https://api.whatsapp.com/send?phone=5592981491600'>Contate</ItemHeader>
+                        <ItemHeader href='https://api.whatsapp.com/send?phone=5592981491600'>Contate-me</ItemHeader>
                     </NavegacaoHeader>
                 </CaixaLinks>
 

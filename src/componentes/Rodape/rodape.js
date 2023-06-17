@@ -1,4 +1,5 @@
 import {CaixaRodape, NavegacaoRodape,ItemRodape,CaixaLinks,CaixaIcon,Logorodape,IconINS,IconWPP} from './stylerodape'
+import { Link } from 'react-router-dom'
 
 
 
@@ -8,8 +9,12 @@ export const Rodape = ()=>{
             <Logorodape src='/imagem/logo.jpg' alt='logo'></Logorodape>
             <CaixaLinks>
                 <NavegacaoRodape> 
-                    <ItemRodape href="#">Home</ItemRodape>
-                    <ItemRodape href="#">Serviços</ItemRodape>
+                    <ItemRodape> 
+                        <Link to="/" style={{color: '#D0F0C0', textDecoration: 'none'}}>Home</Link>
+                    </ItemRodape>
+                    <ItemRodape>
+                        <Link to="/Servicos-NR" style={{color: '#D0F0C0', textDecoration: 'none'}}>Servicos</Link>
+                    </ItemRodape>
                     <ItemRodape href="#">Contate-me</ItemRodape>
                 </NavegacaoRodape>
             </CaixaLinks>

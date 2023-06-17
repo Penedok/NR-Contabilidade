@@ -1,9 +1,9 @@
 
-import Botao from "../Bnt/btn"
 import {ContainerSobremim, CaixaImgSobre,ImgSobre,ImgLinhaSobre,
- TextoSobre,ParagrafoSobre,Paragrafo, ImagemLinha2, CaixaLinha2,CaixaInfor
+ TextoSobre,ParagrafoSobre,Paragrafo, ImagemLinha2, CaixaLinha2,CaixaInfor, DivTexto
 } from './styleSobremim'
 import { Link } from "react-router-dom"
+import {Botao} from "../Bnt/btn"
 
 
 export const SobreMim = () =>{
@@ -17,7 +17,7 @@ export const SobreMim = () =>{
                 <ImgLinhaSobre src="/imagem/Line2.svg"/>
            
             
-                <div>
+                <DivTexto>
                     <TextoSobre id="sobremim">Sobre-Mim</TextoSobre>
                     <ParagrafoSobre>Manaura com gosto, tenho 27 anos, casado e pai do Cauã!
                         Atuo na área desde 2017, onde comecei a minha história em uma empresa regional,
@@ -26,9 +26,9 @@ export const SobreMim = () =>{
                         jurídica e posso te ajudar a realizar seu sonho de abrir a sua primeira empresa.
                     </ParagrafoSobre>
                     <Botao>
-                        <Link to="/Servicos-NR" style={{color: '#000', textDecoration: 'none'}}>Meus Serviços</Link>
+                        <Link to="/Servicos-NR" style={{color: '#000', textDecoration: 'none', hover:'#ffff'}}>Meus Serviços</Link>
                     </Botao>   
-                </div>    
+                </DivTexto>    
             </CaixaImgSobre>
             
             <CaixaLinha2>

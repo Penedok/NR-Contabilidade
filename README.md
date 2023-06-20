@@ -34,4 +34,4 @@
  ```
     npm start
 ```
- Click aqui para acessar á página no seu navegador:  https://lista-de-compras-pearl.vercel.app/
+ Click aqui para acessar á página no seu navegador:  https://nr-contabilidade.vercel.app/
